@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="main">
+
+                        <div id="demo"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="row">
+                    <div class="rControl">
+
+                        <p class="CP">Control Panel</p>
+
+
+                        <label class="wStyle" for="w">Width</label>
+                        
+                            <input type="text" id="w" class="form-control" />
+                            <select id="wSelection">
+                                <option value="px">px</option>
+                                <option value="em">em</option>
+                                <option value="%">%</option>
+                            </select>
+                            
+                        <br>
+                        <br>
+
+                        <label class="hStyle" for="h">Height</label>
+                        <div>
+                            <input type="text" id="h" class="form-control"/>
+                            <select id="hSelection">
+                                <option value="px">px</option>
+                                <option value="em">em</option>
+                                <option value="%">%</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+
+
+                        <label class="bgStyle" for="bg">Background</label>
+                        <select name="" id="bg" class="form-control">
+                            <option value="test">-COLOUR-</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="black">Black</option>
+                            <option value="purple">Purple</option>
+                            <option value="grey">Grey</option>
+                            
+                        </select>
+                        <br>
+
+                        <label class="brStyle" for="br">Border radius</label>
+                        <div>
+                            <input type="text" id="br" class="form-control">
+                            <select name="" id="brSelection">
+                              <option value="px">px</option>
+                              <option value="%">%</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+                        <button type="button" onclick="controlPanel()" class="btn btn-success btn-block">Creat</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script src="js/main.js"></script>
